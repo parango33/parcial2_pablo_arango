@@ -60,6 +60,7 @@ const Room = (props) => {
             .style("opacity", 1)
             .attr("position","absolute")
             .attr("size","large")
+            
            
 
         //escala colores
@@ -154,7 +155,7 @@ const Room = (props) => {
                 </div>
             ))}
         <Device roomSel ={selectedRoom}/>
-         
+         <h2><FormattedMessage id='Power Usage'/></h2>
         </div>
         
 
